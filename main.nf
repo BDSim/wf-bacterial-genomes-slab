@@ -69,7 +69,7 @@ process coverStats {
 process deNovo {
     label "wfbacterialgenomes"
     cpus params.threads
-    memory "31 GB"
+    memory "2 GB"
     input:
         tuple val(meta), path("reads.fastq.gz")
     output:
